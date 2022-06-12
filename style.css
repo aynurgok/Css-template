@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1563px;
+    height: 777px;
+    border-radius:26px;
+    /* t r b l */
+    padding: 62px 0 0 62px;
+    background-color: #EFF0F1;
+    margin: 0 auto;
+}
+
+.container .nav > p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom:24px;
+}
+
+.container .buttons {
+    display: flex;
+    place-items: center;
+}
+.container .buttons > button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:#0E0E38;
+    width: 70px;
+    height: 44px;
+    border-radius:8px;
+    border: 0;
+    cursor:pointer;
+    background-color: white;
+    margin-right: 8px;
+}
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 56px;
+}
+
+.cards .card {
+    border-radius: 24px;
+    /* t r b l*/
+    padding: 24px 24px 0 24px;
+    background-color: white;
+    height: 489px;
+}
+
+.cards .card:nth-child(2) {
+    margin: 0 64px;
+}
+
+div.icon {
+    display: flex;
+    place-items: center;
+}
+
+div.icon p {
+    margin-left: 4px;
+}
+
+.cards .card .box .photo {
+    padding-bottom:16px;
+    
+}
+.cards .card .box .photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.down {
+    display: flex;
+    justify-content: space-between;
+    padding-top:24px;
+    align-items:center;
+}
+.down>p {
+    font-size: 24px;
+    color:#0E0E38;
+}
+
+
+.card .box .photo>img{
+    font-family: 'Poppins' ,sans-serif;
+    width: 389px;
+    height: 268px;
+    border-radius: 24px;
+}
